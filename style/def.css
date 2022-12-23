@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500&family=Unbounded:wght@500&display=swap');
+
+h1 {
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Unbounded', cursive;
+    user-select: none;
+    color: whitesmoke;
+}
+p{
+
+    color: white;
+    line-height: 2rem;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    75% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+body{
+    background-color: black;
+}
+button{
+    margin-right: 2rem;
+}
